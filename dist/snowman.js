@@ -34,7 +34,7 @@ function drawSnowText(canvas) {
    let context = canvas.getContext("2d");
 
    context.font = "80px Verdana";
-   context.fontAlign = "center";
+   context.textAlign = "center";
    context.textBaseline = "top";
    context.fillStyle = "blue";
    context.fillText("SNOW", canvas.width / 2, 10);
